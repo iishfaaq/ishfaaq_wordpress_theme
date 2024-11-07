@@ -1,0 +1,20 @@
+.image-title-block .image-container {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-title-block .title-overlay {
+  position: absolute;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  width: 100%;
+}

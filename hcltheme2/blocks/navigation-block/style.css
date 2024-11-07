@@ -1,0 +1,22 @@
+.navi-block {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  justify-content: flex-start;
+  flex: 1;
+}
+.navi-block li {
+  margin: 0;
+}
+.navi-block a {
+  text-decoration: none;
+  color: #0c0c0c;
+  font-weight: bold;
+}
+.navi-block a:hover {
+  color: #0a4a8f;
+  font-weight: bold;
+  transform: scale(1.1); /* Scales the text to 110% of its original size */
+  transition: transform 0.3s ease; /* Smooth transition effect */
+}

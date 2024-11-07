@@ -1,0 +1,16 @@
+{
+  "apiVersion": 2,
+  "name": "hcltheme2/copyright",
+  "title": "Footer Copyright",
+  "category": "theme",
+  "description": "Displays a copyright notice in the footer.",
+  "attributes": {
+    "year": {
+      "type": "number",
+      "default": "2024"
+    }
+  },
+  "textdomain": "hcltheme2",
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css"
+}

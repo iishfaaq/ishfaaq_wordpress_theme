@@ -1,0 +1,40 @@
+/*
+Theme Name: HCL Theme 2
+Author: Ishfaaq Ismath
+Description: A custom block-based theme built from scratch for HCL website.
+Version: 1.0
+*/
+.header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.header-container .logo-block {
+  justify-content: flex-end;
+}
+
+/* Make sure the html and body take full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Set up a flex container */
+.site-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content should take remaining space */
+.site-content {
+  flex: 1;
+}
+
+/* Footer stays at the bottom */
+.site-footer {
+  margin-top: auto;
+}

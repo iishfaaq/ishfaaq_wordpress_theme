@@ -1,0 +1,8 @@
+.navi-block {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+.navi-block a {
+  color: #0c0c0c;
+}
